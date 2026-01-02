@@ -1,81 +1,79 @@
-name: Bug Report
-description: There is something wrong with the theme. 99% of the time you should select Support below.
+name: 🐛 Bug Report
+description: Report any issues you encounter to make hugoplate even more efficient.
+
 body:
-  - type: markdown
+  - type: input
+    id: hugo-version
     attributes:
-      value: |
-        Before opening a new issue please:
-
-        - Verify you have the latest versions of Jekyll and Minimal Mistakes
-          installed by running `bundle update`.
-        - Thoroughly read the theme's documentation at
-          https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-        - Search all issues at https://github.com/mmistakes/minimal-mistakes/issues
-          for solutions and to avoid duplication.
-        - Ask for help at https://talk.jekyllrb.com/
-
-        If none of the above solved your problem, you can continue below.
-
-  - type: textarea
-    id: environment
-    attributes:
-      label: What happened?
-      description: |
-        Please include theme version, Jekyll version, public git repository, whether
-        you are hosting with GitHub Pages, and the operating system you tested with.
-
-        Issues without a link to a public repository or ZIP file will likely go ignored.
-        Being able to see your actual files is necessary to troubleshoot, as most
-        issues stem from invalid/missing YAML Front Matter, a mis-configured _config.yml
-        file, or problematic site content.
-      value: |-
-        - Minimal Mistakes version:
-        - Ruby gem or remote theme version:
-        - Jekyll version:
-        - Git repository URL:
-        - Hosted on GitHub Pages (if yes provide URL to site):
-        - Operating system:
+      label: What is your Hugo Extended Version
+      description: Check the [README](https://github.com/zeon-studio/hugoplate?tab=readme-ov-file#user-content-️-prerequisites) for the required version. Use "hugo version" in your terminal to see your Hugo version.
     validations:
       required: true
+
+  - type: input
+    id: go-version
+    attributes:
+      label: What is your Go Version
+      description: Check the [README](https://github.com/zeon-studio/hugoplate?tab=readme-ov-file#user-content-️-prerequisites) for the required version. Use "go version" in your terminal to see your Go version.
+    validations:
+      required: true
+
+  - type: input
+    id: node-version
+    attributes:
+      label: What is your Node.js Version
+      description: Check the [README](https://github.com/zeon-studio/hugoplate?tab=readme-ov-file#user-content-️-prerequisites) for the required version. Use "node -v" in your terminal to see your Node.js version.
+    validations:
+      required: true
+
+  - type: input
+    id: operating-system
+    attributes:
+      label: What is your Operating System
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: make-sure
+    attributes:
+      label: Check for Existing Issues
+      description: |
+        Before reporting a problem, please confirm that you've searched thoroughly for any existing reports on the same issue. If no relevant issues are found, proceed with the report.
+      options:
+        - label: I have searched and found no relevant issues.
+          required: true
 
   - type: textarea
     id: expected-behavior
     attributes:
-      label: Expected behavior
-      description: |
-        Please describe the expected behavior and the actual result you got.
-      placeholder: >
-        What is it you expected to happen? This should be a description of how the
-        functionality you tried to use is supposed to work.
+      label: Expected Behavior
+      description: A clear description of what you expected to happen.
     validations:
       required: true
 
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Steps to reproduce the behavior
+      label: Steps to Reproduce
       description: |
-        Describe the steps you took for this problem to come up. Such as: you installed
-        the theme, customized _config.yml, added your own posts, and started up a
-        Jekyll server locally.
-
-        If an error occurred on GitHub Pages when pushing, please test a local version
-        following these setup instructions:
-        https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
-
-        Then provide a complete log by running `bundle exec jekyll build --trace --verbose`
-        and include this output in the filed issue.
-
-        Screenshots can also be included if they help illustrate a behavior.
+        Please explain the steps required to duplicate this issue. Include detailed commands and expected outcomes.
+      placeholder: |
+        1.
+        2.
+        3.
     validations:
       required: true
 
-  - type: textarea
-    id: other
+  - type: input
+    id: reproduction-url
     attributes:
-      label: Other
+      label: Code Reproduction URL
+      description: Please reproduce this issue and provide a link to the repository.
+      placeholder: github.com/yourusername/repo
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
       description: |
-        Please provide a code repository, gist, code snippet, sample files,
-        screenshots, or anything else you think will aid in reproducing the issue.
-    validations:
-      required: false
+        List any other information that is relevant to your issue. You can use Markdown for formatting, including code blocks, links, etc.
