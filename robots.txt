@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jinbrighten.github.io/sitemap.xml
