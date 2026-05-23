@@ -6,5 +6,12 @@ nav: true
 nav_order: 2
 ---
 
-- **Head TA**, *Mobile Computing and Its Applications*, Seoul National University &nbsp;—&nbsp; Spring 2026
-- **Head TA**, *Advanced Course for AI Scientist — Machine Learning*, LG Electronics &nbsp;—&nbsp; Winter 2025
+**Mobile Computing and Its Applications**, Seoul National University
+
+- Head TA
+- Spring 2026
+
+**Advanced Course for AI Scientist — Machine Learning**, LG Electronics
+
+- Head TA
+- Winter 2025
