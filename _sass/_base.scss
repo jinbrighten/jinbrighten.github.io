@@ -597,6 +597,48 @@ footer.sticky-bottom {
   }
 }
 
+.post .post-content > h2,
+.post > article > h2 {
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ongoing-work {
+  margin-bottom: 1.5rem;
+
+  .ongoing-item {
+    margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .ongoing-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    color: var(--global-text-color);
+    line-height: 1.4;
+  }
+
+  .ongoing-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 0.5rem 0 0.75rem;
+  }
+
+  .ongoing-desc {
+    text-align: justify;
+    color: var(--global-text-color);
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;

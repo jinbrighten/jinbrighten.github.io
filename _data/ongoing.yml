@@ -1,0 +1,13 @@
+# Optional teaser images for each ongoing-work item, in the same
+# order as in _includes/ongoing_work.liquid. Leave `image:` blank
+# or comment the line out until you drop the figure into
+# assets/img/. Paths are relative to the site root.
+
+- title: Interaction-Constrained 6-DoF Object Pose Tracking
+  image: # /assets/img/ongoing/pose-tracking.png
+
+- title: SpatialBlend
+  image: # /assets/img/ongoing/spatialblend.png
+
+- title: Failure-Aware Monitoring Code Synthesis for Robotics
+  image: # /assets/img/ongoing/failure-monitor.png

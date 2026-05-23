@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 3
 external_url: /assets/pdf/CV_Jinmyeong.pdf

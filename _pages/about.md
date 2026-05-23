@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Integrated MS/PhD Student, <a href='https://hcs.snu.ac.kr' target='_blank'>Human-Centered Computer Systems Lab</a>, Seoul National University
 
@@ -10,6 +10,7 @@ profile:
   image_circular: false
 
 
+ongoing_work: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 

@@ -1,0 +1,19 @@
+<div class="ongoing-work">
+  <div class="ongoing-item">
+    <div class="ongoing-title">Interaction-Constrained 6-DoF Object Pose Tracking</div>
+    {% if site.data.ongoing %}{% assign item = site.data.ongoing[0] %}{% if item.image %}<img class="ongoing-image" src="{{ item.image | relative_url }}" alt="">{% endif %}{% endif %}
+    <p class="ongoing-desc">A constraint-guided pose-tracking system that uses affordance-based interaction priors from the manipulating body — a hand grasping or rotating an object — to validate and refine neural pose estimates at runtime within tight latency and energy budgets on mobile devices.</p>
+  </div>
+
+  <div class="ongoing-item">
+    <div class="ongoing-title">SpatialBlend: Relational Reconstruction for Cross-Space Presence in Heterogeneous Spaces</div>
+    {% if site.data.ongoing %}{% assign item = site.data.ongoing[1] %}{% if item.image %}<img class="ongoing-image" src="{{ item.image | relative_url }}" alt="">{% endif %}{% endif %}
+    <p class="ongoing-desc">A runtime framework that integrates embodiment signals (6-DoF, pose, voice) to drive a remote-avatar motion backend, adapting to reconstructed cross-space interaction behaviors across heterogeneous physical environments. Evaluated through a user study on Meta Quest 3.</p>
+  </div>
+
+  <div class="ongoing-item">
+    <div class="ongoing-title">Failure-Aware Monitoring Code Synthesis for Robotics</div>
+    {% if site.data.ongoing %}{% assign item = site.data.ongoing[2] %}{% if item.image %}<img class="ongoing-image" src="{{ item.image | relative_url }}" alt="">{% endif %}{% endif %}
+    <p class="ongoing-desc">Synthesizes runtime monitoring code for robot policies by exploring and validating potential failure modes in simulation, so that deployed monitors can detect the failure patterns observed during simulated rollouts.</p>
+  </div>
+</div>
