@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -390,14 +397,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-combinational-point-sampling-for-fast-and-accurate-on-device-lidar-3d-object-detection-was-presented-at-ieee-infocom-2025",
           title: 'Our paper Combinational Point Sampling for Fast and Accurate On-Device LiDAR 3D Object...',
           description: "",
-          section: "News",},{id: "news-started-a-visiting-research-stay-at-purdue-university-collaborating-with-prof-younghyun-kim-s-group-on-interaction-constrained-pose-perception",
+          section: "News",},{id: "news-started-a-visiting-research-stay-at-purdue-university-collaborating-with-prof-younghyun-kim-s-group-on-interaction-constrained-pose-perception-funded-by-the-national-research-foundation-of-korea-nrf-grant-funded-by-the-korea-government-msit",
           title: 'Started a visiting research stay at Purdue University, collaborating with Prof. Younghyun Kim’s...',
-          description: "",
-          section: "News",},{id: "news-wrapped-up-a-visiting-research-stay-at-purdue-university-scoping-a-joint-testbed-for-cross-space-teleinteraction-with-the-purdue-spatial-computing-hub",
-          title: 'Wrapped up a visiting research stay at Purdue University, scoping a joint testbed...',
-          description: "",
-          section: "News",},{id: "news-serving-as-head-ta-for-mobile-computing-and-its-applications-at-seoul-national-university-spring-2026",
-          title: 'Serving as Head TA for Mobile Computing and Its Applications at Seoul National...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
