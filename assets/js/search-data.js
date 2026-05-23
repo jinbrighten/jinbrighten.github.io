@@ -467,6 +467,13 @@ ninja.data = [{
           window.open("https://github.com/jinbrighten", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/jinmyeong-kim-a4a309290", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
