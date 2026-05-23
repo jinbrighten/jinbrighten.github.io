@@ -7,7 +7,7 @@ subtitle: Integrated MS/PhD Student, <a href='https://hcs.snu.ac.kr' target='_bl
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
 
 
 ongoing_work: true
