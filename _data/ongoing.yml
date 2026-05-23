@@ -3,7 +3,7 @@
 # or comment the line out until you drop the figure into
 # assets/img/. Paths are relative to the site root.
 
-- title: Interaction-Constrained 6-DoF Object Pose Tracking
+- title: Interaction-Constrained Object Pose Tracking
   image: # /assets/img/ongoing/pose-tracking.png
 
 - title: SpatialBlend
