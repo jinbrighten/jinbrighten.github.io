@@ -58,7 +58,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-combinational-point-sampling-for-fast-and-accurate-on-device-lidar-3d-object-detection-was-presented-at-ieee-infocom-2025",
           title: 'Our paper Combinational Point Sampling for Fast and Accurate On-Device LiDAR 3D Object...',
           description: "",
-          section: "News",},{id: "news-i-started-a-visiting-research-stay-at-purdue-university-collaborating-with-prof-younghyun-kim-s-group-on-interaction-constrained-pose-perception-from-aug-1-to-oct-31-the-project-is-funded-by-the-national-research-foundation-of-korea-nrf-grant-funded-by-the-korea-government-msit",
+          section: "News",},{id: "news-i-started-a-visiting-research-stay-at-purdue-university-collaborating-with-prof-younghyun-kim-s-group-on-interaction-constrained-pose-perception-from-aug-1-to-oct-31",
           title: 'I started a visiting research stay at Purdue University, collaborating with Prof. Younghyun...',
           description: "",
           section: "News",},{
